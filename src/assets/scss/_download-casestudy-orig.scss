@@ -1,0 +1,49 @@
+h1 {
+    font-size: 28px;
+    color: #005587;
+    font-weight: bold;
+    margin: 16px 0 0 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.category-icon {
+    width: 81px;
+}
+
+.yellow-full-width {
+    background: #ffbf3d;
+}
+.yellow-full-width p {
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 0;
+}
+
+.signature a {
+    font-family: 'open sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700');
+
+@media only screen {
+    html {
+        min-height: 100%;
+        background: #f3f3f3
+    }
+
+    td,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    li,
+    div,
+    span {
+        font-family: 'Open Sans', sans-serif !important;
+    }
+}

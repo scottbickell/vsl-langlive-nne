@@ -1,0 +1,169 @@
+@import 'settings';
+@import 'foundation-emails';
+// @import 'request-demo';
+// @import 'download-5-essential-elements';
+// @import 'watch-video';
+@import 'download-casestudy';
+// @import 'download-5-essential-elements2';
+// @import 'interactive-tour';
+@import 'footer';
+
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+.preview-subject {
+    font-family: monospace;
+    border: 2px dashed orange;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.vsl-logo {
+    max-width: 300px;
+}
+
+.signature p {
+    font-size: 14px;
+}
+
+.product-type-icon {
+    max-width: 120px;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+p.view-online {
+    background: $body-background;
+    color: #999999;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.view-online a {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #999999;
+}
+
+td {
+    hyphens: none;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+    color: #005587;
+}
+
+table.button table td a {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+table.button table td {
+    text-align: center !important;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0 !important;
+}
+
+sup {
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+// <br class="hide-hardbreak">
+
+.top-bar {
+    background: #005587;
+}
+
+
+.intro-cta {
+    font-size: 14px;
+}
+
+.yellow-bg {
+    background: #ffbf3d;
+}
+
+table.button {
+    margin-bottom: 0px !important;
+}
+
+
+th.large-6.address-cell {
+    padding-left: 16px;
+}
+
+@media only screen and (max-width: 616px) {
+    .social-media img {
+        width: 42px !important;
+        height: 42px !important;
+        margin: 0 5px;
+    }
+
+    .large-float-right {
+        display: inline;
+        float: right;
+    }
+
+    .hide-hardbreak {
+        display: none;
+    }
+    .intro-cta {
+        font-size: 1em;
+        text-align: center;
+    }
+    .demo-copy h2 {
+        margin: 1em .5em .5em .5em;
+    }
+    .footer p {
+        text-align: center;
+    }
+    .yellow-full-width p {
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+    h1 {
+        text-align: center;
+        margin-top: 0;
+        font-size: 24px;
+    }
+
+    table.button table td a {
+        font-size: 14px;
+    }
+
+    .category-icon, .rep-photo {
+        max-width: 100px !important;
+    }
+
+    .vsl-logo {
+        max-width: 154px;
+    }
+    .rep-photo {
+        width: 96px !important;
+    }
+    
+}
+

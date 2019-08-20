@@ -1,0 +1,28 @@
+.dark-blue-full-width h1, 
+.dark-blue-full-width p,
+.dark-blue-full-width h2 {
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p.larger {
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.light-blue-full-width {
+    background: #009bdf;
+}
+
+.dark-blue-full-width {
+    background: #005587;
+}
